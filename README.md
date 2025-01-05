@@ -7,3 +7,7 @@ Weak (less than 8 characters)
 Medium (8-12 characters)
 
 Strong (more than 12 characters)
+
+### Feature Enhancements
+
+Implementation of additional password strength criteria, such as checking for uppercase letters, numbers, and special characters.
