@@ -83,11 +83,15 @@ function App() {
       <div id="result">
         <div>
           <div>
-            {password && <span>{`Password strength : ${category.name}`}</span>}
-            <div
-              id="strength-indicator"
-              style={{ backgroundColor: category.color }}
-            ></div>
+            {password && (
+              <>
+                <span>{`Password strength : ${category.name}`}</span>
+                <div
+                  id="strength-indicator"
+                  style={{ backgroundColor: category.color }}
+                ></div>
+              </>
+            )}
           </div>
           <hr />
           <div id="suggestions">
