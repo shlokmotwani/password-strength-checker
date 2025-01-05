@@ -14,10 +14,9 @@ A React application that checks the strength of a password entered by the user. 
 
 Implementation of additional password strength criteria, such as checking for uppercase letters, numbers, and special characters.
 
-
+*Weak Password*
 <img src="./src/assets/weak_password.png" />
-Weak Password
+<hr />
 
-
+*Strong Password*
 <img src="./src/assets/strong_password.png" />
-Strong Password
