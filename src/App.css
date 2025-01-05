@@ -4,3 +4,24 @@
   padding: 2rem;
   text-align: center;
 }
+
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+}
+
+#result{
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#strength-indicator{
+  width: 100px;
+  height: 15px;
+  display: inline-block;
+  margin: 0 10px;
+}
