@@ -38,8 +38,12 @@ function App() {
         <input type="text" value={password} onChange={handlePwdChange} />
       </div>
       <div id="result">
-      <span>{`Password strength : ${category.name}`}</span>
-      <div id="strength-indicator" style={{backgroundColor: category.color}}></div>
+      {password && (
+        <>
+          <span>{`Password strength : ${category.name}`}</span>
+          <div id="strength-indicator" style={{backgroundColor: category.color}}></div>
+        </>
+      )}
       </div>
     </div>
   );
